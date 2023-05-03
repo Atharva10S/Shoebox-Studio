@@ -441,6 +441,7 @@
     /* width: 100%; */
     margin-inline: auto; }
   
+ 
   .navbar-list,
   .nav-action-list { margin: 30px; }
   
@@ -508,6 +509,15 @@
   .overlay.active {
     opacity: 1;
     pointer-events: all;
+  }
+
+
+  .nav-action-btn{
+    padding-top: 19px;
+  }
+
+  .search{
+    padding-top: 15px;
   }
   
   
@@ -1165,6 +1175,7 @@
   
     .navbar-list,
     .nav-action-list { display: flex; }
+
   
     .nav-action-list { gap: 20px; }
   
@@ -1194,6 +1205,20 @@
       position: absolute;
       top: 5px;
       right: -12px;
+    }
+
+    .search-text{
+      margin: 0;
+      padding: 0;
+      width: 125px;
+      border: none;
+      text-decoration: none;
+      padding: 10px 0px;
+
+    }
+
+    .nav-action-text{
+      padding-left: 500px;
     }
   
   
